@@ -2,8 +2,6 @@
 float x, y, w, h, xSpeed, ySpeed;
 float r=10;
 boolean start=false;
-//paddle LX/LY= left paddle
-//paddle RX/LY = right paddle
 int paddleLX, paddleLY, paddleW, paddleH, paddleSpeed, paddleRX, paddleRY; 
 int index=20;
 float[] xPos= new float[index];
@@ -241,7 +239,6 @@ void keyPressed() {
   }
   // reset game at N or n
   if (key=='n'||key=='N') {
-
     setup();
     start=false;
   }
